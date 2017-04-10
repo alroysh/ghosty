@@ -372,7 +372,7 @@ else
 					   'type' => 'template',	
 					   'altText' => 'BACOT',
 					   'template' =>[
-					  'type' => 'confirm',	
+					  'type' => 'button',	
 						'title' => 'Nomor Velda',
 						'text' => 'Pilih Salah Satu',
 						'actions' => [
