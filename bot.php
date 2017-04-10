@@ -76,6 +76,22 @@ if($message['type']=='text')
 					
 		}
 	else
+				if($pesan_datang=='userid')
+		{
+			
+			
+			$balas = array(
+								'replyToken' => $replyToken,														
+								'messages' => array(
+									array(
+											'type' => 'text',					
+											'text' => 'Link Foto Kamu : ' .$profil->userId.''
+										)
+								)
+							);
+					
+		}
+	else
 	if($pesan_datang=='/info')
 		{
 			$balas = array(
@@ -411,3 +427,20 @@ echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
 	file_put_contents('./balasan.json',$result);
 	$client->replyMessage($balas);
 		
+var_dump($client->parseEvents());
+	$_SESSION['userId']=$client->parseEvents()[0]['source']['userId'];
+	
+	{
+	  "replyToken": "nHuyWiB7yP5Zw52FIkcQobQuGDXCTA",
+	  "type": "message",
+	  "timestamp": 1462629479859,
+	  "source": {
+		"type": "user",
+		"userId": "U206d25c2ea6bd87c17655609a1c37cb8"
+	  },
+	  "message": {
+		"id": "325708",
+		"type": "text",
+		"text": "Hello, world"
+	  }
+	}
