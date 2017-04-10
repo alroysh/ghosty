@@ -317,12 +317,7 @@ if($message['type']=='text')
 						[
 						'type' => 'message',
 						    'label' => 'TSEL',														
-								'messages' => array(
-									array(
-											'type' => 'text',					
-											'text' => 'Halo ' .$profil->displayName.''
-										)
-								)
+						'text' => 'Halo kak' .$profil->displayName 
 						],
 						[
 						'type' => 'message',
