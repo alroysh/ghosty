@@ -315,12 +315,12 @@ if($message['type']=='text')
 						'text' => 'Nomor Velda',
 						'actions' => [
 						[
-						'type' => 'text',
+						'type' => 'message',
 						    'label' => 'TSEL',														
 						'text' => '081287717545' 
 						],
 						[
-						'type' => 'text',
+						'type' => 'message',
 						    'label' => 'XL',
 						    'text' => '085921483878'
 						]	
