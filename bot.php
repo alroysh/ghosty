@@ -316,8 +316,7 @@ if($message['type']=='text')
 						'actions' => [
 						[
 						'type' => 'message',
-						    'label' => 'TSEL',
-						    'replyToken' => $replyToken,														
+						    'label' => 'TSEL',														
 								'messages' => array(
 									array(
 											'type' => 'text',					
