@@ -362,7 +362,7 @@ else
 					
 		}
 	else
-			if($pesan_datang==='/nomor')
+			if($pesan_datang=='/nomor')
 		{
 			
 			$balas = array(
@@ -379,7 +379,7 @@ else
 						[
 						'type' => 'postback',
 						    'label' => 'TSEL',
-						    'data' => 'makan'
+						    'data' => 'action=add&itemid=123'
 						]	
 						]
 						
