@@ -315,14 +315,14 @@ if($message['type']=='text')
 						'text' => 'Are you sure?',
 						'actions' => [
 						[
-						'type' => 'message',
+						'type' => 'postback',
 						    'label' => 'Yes',
-						    'text' => 'yes'
+						    'data' => 'action=add&itemid=123'
 						],
 						[
-						'type' => 'message',
+						'type' => 'postback',
 						    'label' => 'No',
-						    'text' => 'no'
+						    'data' => 'action=add&itemid=123'
 						]	
 						]
 						
@@ -361,34 +361,7 @@ else
 							);
 					
 		}
-	else
-			if($pesan_datang=='/nomor')
-		{
-			
-			$balas = array(
-			'replyToken' => $replyToken,														
-			'messages' => array(
-			              array(
-					   'type' => 'template',	
-					   'altText' => 'BACOT',
-					   'template' =>[
-					  'type' => 'button',	
-						'title' => 'Nomor Velda',
-						'text' => 'Pilih Salah Satu',
-						'actions' => [
-						[
-						'type' => 'message',
-						    'label' => 'TSEL',
-						    'text' => 'Makan Bang'
-						]	
-						]
-						
-								]
-								)
-								)
-							);
-					
-		}
+	
 		else
 		if($pesan_datang=='Lokasi Bot')
 		{
