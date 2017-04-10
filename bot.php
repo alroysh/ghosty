@@ -317,12 +317,12 @@ if($message['type']=='text')
 						[
 						'type' => 'message',
 						    'label' => 'TSEL',
-						    'data' => 'Makan Bang'
+						    'text' => 'Makan Bang'
 						],
 						[
 						'type' => 'message',
 						    'label' => 'XL',
-						    'data' => 'Makan Mbak'
+						    'text' => 'Makan Mbak'
 						]	
 						]
 						
