@@ -422,25 +422,4 @@ $response = $bot->leaveRoom('<groupId>');
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();		
 	}
 	 
-	$result =  json_encode($balas);
-	//$result = ob_get_clean();
-	file_put_contents('./balasan.json',$result);
-	$client->replyMessage($balas);
-		var_dump($client->parseEvents());
-	$_SESSION['userId']=$client->parseEvents()[0]['source']['userId'];
-	
-	{
-	  "replyToken": "nHuyWiB7yP5Zw52FIkcQobQuGDXCTA",
-	  "type": "message",
-	  "timestamp": "1462629479859",
-	  "source": {
-		"type": "user",
-		"userId": "Ube6af7bf1bcd65b78d11f7435714660e"
-	  },
-	  "message": {
-		"id": "325708",
-		"type": "text",
-		"text": "Hello, world"
-	  }
-	}
 
