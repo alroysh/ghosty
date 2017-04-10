@@ -69,7 +69,7 @@ if($message['type']=='text')
 								'messages' => array(
 									array(
 											'type' => 'text',					
-											'text' => 'Link Foto Kamu : ' .$profil->email.''
+											'text' => 'Link Foto Kamu : ' .$profil->pictureUrl.''
 										)
 								)
 							);
