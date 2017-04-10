@@ -361,6 +361,34 @@ else
 							);
 					
 		}
+	else
+			if($pesan_datang==='/nomor')
+		{
+			
+			$balas = array(
+			'replyToken' => $replyToken,														
+			'messages' => array(
+			              array(
+					   'type' => 'template',	
+					   'altText' => 'BACOT',
+					   'template' =>[
+					  'type' => 'confirm',	
+						'title' => 'Nomor Velda',
+						'text' => 'Pilih Salah Satu',
+						'actions' => [
+						[
+						'type' => 'postback',
+						    'label' => 'TSEL',
+						    'data' => 'makan'
+						]	
+						]
+						
+								]
+								)
+								)
+							);
+					
+		}
 		else
 		if($pesan_datang=='Lokasi Bot')
 		{
