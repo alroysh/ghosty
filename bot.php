@@ -377,9 +377,9 @@ else
 						'text' => 'Pilih Salah Satu',
 						'actions' => [
 						[
-						'type' => 'postback',
+						'type' => 'message',
 						    'label' => 'TSEL',
-						    'data' => 'action=add&itemid=123'
+						    'text' => 'Makan Bang'
 						]	
 						]
 						
