@@ -317,7 +317,7 @@ if($message['type']=='text')
 						[
 						'type' => 'message',
 						    'label' => 'TSEL',														
-						'text' => 'Halo kak' .$profil->displayName 
+						'text' => '081287717545' 
 						],
 						[
 						'type' => 'message',
