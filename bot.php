@@ -301,7 +301,7 @@ if($message['type']=='text')
 					
 		}
 	else
-			if($pesan_datang=='/own')
+			if($pesan_datang=='/nomorvelda')
 		{
 			
 			$balas = array(
@@ -315,12 +315,12 @@ if($message['type']=='text')
 						'text' => 'Nomor Velda',
 						'actions' => [
 						[
-						'type' => 'postback',
+						'type' => 'message',
 						    'label' => 'TSEL',
 						    'data' => 'Makan Bang'
 						],
 						[
-						'type' => 'postback',
+						'type' => 'message',
 						    'label' => 'XL',
 						    'data' => 'Makan Mbak'
 						]	
