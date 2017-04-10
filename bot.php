@@ -312,17 +312,17 @@ if($message['type']=='text')
 					   'altText' => 'this is a confirm template',
 					   'template' =>[
 					  'type' => 'confirm',
-						'text' => 'Are you sure?',
+						'text' => 'Nomor Velda',
 						'actions' => [
 						[
 						'type' => 'postback',
-						    'label' => 'Yes',
-						    'data' => 'action=add&itemid=123'
+						    'label' => 'TSEL',
+						    'data' => 'Makan Bang'
 						],
 						[
 						'type' => 'postback',
-						    'label' => 'No',
-						    'data' => 'action=add&itemid=123'
+						    'label' => 'XL',
+						    'data' => 'Makan Mbak'
 						]	
 						]
 						
