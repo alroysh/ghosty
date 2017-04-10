@@ -317,7 +317,13 @@ if($message['type']=='text')
 						[
 						'type' => 'message',
 						    'label' => 'TSEL',
-						    'text' => '081287717545'
+						    'replyToken' => $replyToken,														
+								'messages' => array(
+									array(
+											'type' => 'text',					
+											'text' => 'Halo ' .$profil->displayName.''
+										)
+								)
 						],
 						[
 						'type' => 'message',
