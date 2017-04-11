@@ -129,7 +129,7 @@ if($message['type']=='text')
 								'messages' => array(
 									array(
 											'type' => 'text',					
-											'text' => $x
+											'text' => .ryRandom(4).
 										)
 								)
 							);
