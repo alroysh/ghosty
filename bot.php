@@ -39,6 +39,7 @@
 	$browser= $_SERVER['HTTP_USER_AGENT'];
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$owner = "Owner";
+	$hasil=perkalian($pesan_datang,$pesan_datang);
 	//pesan bergambar
 if($message['type']=='text')
 	{
@@ -230,6 +231,21 @@ if($message['type']=='text')
 			              array(
 					  'type' => 'text',					
 					   'text' => 'Now '. date('l, d-m-Y')
+										)
+								)
+							);
+					
+		}
+			else
+		if($pesan_datang=='/perkalian')
+		{
+			
+			$balas = array(
+			'replyToken' => $replyToken,														
+			'messages' => array(
+			              array(
+					  'type' => 'text',					
+					   'text' => $hasil
 										)
 								)
 							);
