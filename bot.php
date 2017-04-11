@@ -38,8 +38,8 @@
 	$ip = $_SERVER['REMOTE_ADDR'];
 	$browser= $_SERVER['HTTP_USER_AGENT'];
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
-	$a = 100;
-	$b = 230;
+	$owner = 'Owner';
+	$owner_new = strtolower($owner);
 	$hasil = $a+$b;
 	//pesan bergambar
 if($message['type']=='text')
@@ -367,7 +367,7 @@ if($message['type']=='text')
 		}
 	
 else
-			if($pesan_datang==='Owner')
+			if($pesan_datang==$owner_new)
 		{
 			
 			$balas = array(
