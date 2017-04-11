@@ -139,7 +139,7 @@ if($message['type']=='text')
 					
 		}
 		else
-		if strtolower($pesan_datang=='ggwp')
+		if ($pesan_datang=='ggwp')
 		{
 			$get_sub = array();
 			$aa =   array(
