@@ -122,7 +122,7 @@ if($message['type']=='text')
 					
 		}
 	else
-				if($pesan_datang=='$t[0]')
+				if($pesan_datang=='. $t[0]')
 		{
 			
 			
