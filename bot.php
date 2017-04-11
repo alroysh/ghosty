@@ -39,7 +39,7 @@
 	$browser= $_SERVER['HTTP_USER_AGENT'];
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$owner = "Owner";
-	$hasil=perkalian($pesan_datang,$pesan_datang);
+	$hasil=perkalian(1,1);
 	//pesan bergambar
 if($message['type']=='text')
 	{
@@ -207,7 +207,7 @@ if($message['type']=='text')
 			//$client->replyMessage($alt);
 		}
 		else
-		if($pesan_datang=='3')
+		if($pesan_datang=='5444')
 		{
 			
 			$balas = array(
