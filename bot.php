@@ -458,26 +458,6 @@ else
 							
 		}
 	}
-
-//sticker
-
-else
-	if($pesan_datang=='/taiwan')
-		{
-			$balas = array(
-			'replyToken' => $replyToken,														
-			'messages' => array(
-					array(
-					'type' => 'text',					
-					'text' => 'Region Taiwan'
-										)
-								)
-							);
-					
-		}
-
-
-//sticker
 	else if($message['type']=='sticker')
 	{	
 		$balas = array(
