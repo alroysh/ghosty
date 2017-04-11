@@ -39,9 +39,11 @@
 	$browser= $_SERVER['HTTP_USER_AGENT'];
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$owner = "Owner";
-	$t = date("H");
-	if ($t < "20"){
+	$t = date("D");
+	if ($t < "20") {
     echo "Have a good day!";
+} else {
+    echo "Have a good night!";
 }
 if($message['type']=='text')
 	{
