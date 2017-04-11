@@ -38,7 +38,7 @@
 	$ip = $_SERVER['REMOTE_ADDR'];
 	$browser= $_SERVER['HTTP_USER_AGENT'];
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
-	$owner = 'Owner';
+	$owner = array("owner","Owner")
 	//pesan bergambar
 if($message['type']=='text')
 	{
