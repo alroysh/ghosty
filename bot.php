@@ -124,6 +124,22 @@ if($message['type']=='text')
 							);
 					
 		}
+	else
+				if($pesan_datang=='taiwan')
+		{
+			
+			
+			$balas = array(
+								'replyToken' => $replyToken,														
+								'messages' => array(
+									array(
+											'type' => 'text',					
+											'text' => 'REG TAIWAN '
+										)
+								)
+							);
+					
+		}
 		else
 				if($pesan_datang=='stickernya mana?')
 		{
