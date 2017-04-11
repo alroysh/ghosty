@@ -120,7 +120,7 @@ if($message['type']=='text')
 					
 		}
 	else
-				if($pesan_datang=='/testbang')
+				if($pesan_datang=='/acak')
 		{
 			
 			
