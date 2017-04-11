@@ -457,7 +457,28 @@ else
 							
 							
 		}
-	}else if($message['type']=='sticker')
+	}
+
+//sticker
+
+else
+	if($pesan_datang=='https://line.me/S/sticker/7451')
+		{
+			$balas = array(
+			'replyToken' => $replyToken,														
+			'messages' => array(
+					array(
+					'type' => 'text',					
+					'text' => 'Region Taiwan'
+										)
+								)
+							);
+					
+		}
+
+
+//sticker
+	else if($message['type']=='sticker')
 	{	
 		$balas = array(
 								'replyToken' => $replyToken,														
