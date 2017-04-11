@@ -345,8 +345,7 @@ if($message['type']=='text')
 					   'altText' => 'Games',
 					   'template' =>[
 					  'type' => 'confirm',
-						 'title' => 'Games',
-						'text' => 'yay or nay',
+						'text' => 'GAMES : yay or nay',
 						'actions' => [
 						[
 						'type' => 'message',
