@@ -40,8 +40,8 @@
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$owner = "Owner";
 //sticker
-	$t[0] = 'https://line.me/S/sticker/7451';
-	$t[1] = 'https://line.me/S/sticker/7451';
+	$t[0] = "https://line.me/S/sticker/7451";
+	$t[1] = "https://line.me/S/sticker/7450";
 if($message['type']=='text')
 	{
 		if($pesan_datang=='Halo')
