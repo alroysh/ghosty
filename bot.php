@@ -131,6 +131,18 @@ if($message['type']=='text')
 											'type' => 'text',					
 											'text' => $x
 										)
+									array(
+											'type' => 'text',					
+											'text' => $x
+										)
+									array(
+											'type' => 'text',					
+											'text' => $x
+										)
+									array(
+											'type' => 'text',					
+											'text' => $x
+										)
 								)
 							);
 					
