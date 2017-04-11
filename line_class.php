@@ -165,3 +165,16 @@ function perkalian($pesan_datang, $pesan_datang)
            return $hasil;
     }
 
+function ryRandom($muncul){
+
+if($muncul == '4'){
+ $ryRandom = rand(1111,9999); //*Acak angka 1111 - 9999 menampilkan 4 angka
+ }elseif($muncul == '3'){
+ $ryRandom = rand(111,999); //*Acak angka 111 - 999 menampilkan 3 angka<br />
+ }elseif($muncul == '2'){
+ $ryRandom = rand(11,99); //* menampilkan 2 angka
+ }else{
+    $ryRandom = "Random belum di setting";
+}
+ return $ryRandom;
+}
