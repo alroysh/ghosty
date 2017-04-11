@@ -309,7 +309,7 @@ if($message['type']=='text')
 			'messages' => array(
 			              array(
 					   'type' => 'template',	
-					   'altText' => 'this is a confirm template',
+					   'altText' => 'Nomor Velda',
 					   'template' =>[
 					  'type' => 'confirm',
 						'text' => 'Nomor Velda',
@@ -323,6 +323,40 @@ if($message['type']=='text')
 						'type' => 'message',
 						    'label' => 'XL',
 						    'text' => '085921483878'
+						]	
+						]
+						
+								]
+								)
+								)
+							);
+					
+		}
+	
+	else
+			if($pesan_datang=='/games')
+		{
+			
+			$balas = array(
+			'replyToken' => $replyToken,														
+			'messages' => array(
+			              array(
+					   'type' => 'template',	
+					   'altText' => 'Games',
+					   'template' =>[
+					  'type' => 'confirm',
+						 'title' => 'Games',
+						'text' => 'yay or nay',
+						'actions' => [
+						[
+						'type' => 'message',
+						    'label' => 'YAY',														
+						'text' => 'yay' 
+						],
+						[
+						'type' => 'message',
+						    'label' => 'NAY',
+						    'text' => 'nay'
 						]	
 						]
 						
