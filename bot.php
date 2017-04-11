@@ -39,8 +39,7 @@
 	$browser= $_SERVER['HTTP_USER_AGENT'];
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$owner = "Owner";
-//sticker
-	$t1 = "https://line.me/S/sticker/7451";
+for ($x = 0; $x <= 10; $x++)
 if($message['type']=='text')
 	{
 		if($pesan_datang=='Halo')
@@ -121,7 +120,7 @@ if($message['type']=='text')
 					
 		}
 	else
-				if($pesan_datang=='$t1')
+				if($pesan_datang=='/testbang')
 		{
 			
 			
@@ -130,7 +129,7 @@ if($message['type']=='text')
 								'messages' => array(
 									array(
 											'type' => 'text',					
-											'text' => 'Region Taiwan'
+											'text' => $x
 										)
 								)
 							);
