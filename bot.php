@@ -39,7 +39,9 @@
 	$browser= $_SERVER['HTTP_USER_AGENT'];
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$owner = "Owner";
-	$t = array('https://line.me/S/sticker/7451','https://line.me/S/sticker/7451');
+//sticker
+	$t[0] = 'https://line.me/S/sticker/7451'
+	$t[1] = 'https://line.me/S/sticker/7451'
 if($message['type']=='text')
 	{
 		if($pesan_datang=='Halo')
