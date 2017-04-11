@@ -40,8 +40,9 @@
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$owner = "Owner";
 	$t = date("H");
-	if ($t < "20")
-	//pesan bergambar
+	if ($t < "20"){
+    echo "Have a good day!";
+}
 if($message['type']=='text')
 	{
 		if($pesan_datang=='Halo')
