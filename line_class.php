@@ -80,8 +80,9 @@ class LINEBotTiny
 	
 	   public function leaveGroup($groupId)
     {
-      return $this->httpClient->post($this->endpointBase . '/v2/bot/group/' . urlencode($groupId) . '/leave', []);
+        return $this->httpClient->delete($this->endpointBase . 'https://api.line.me/v2/bot/group/' . urlencode($groupId) . '/leave', []);
     }
+	
     public function profil($userId)
     {
       
@@ -156,4 +157,11 @@ function exec_url_aja($fullurl)
 		
 			return($returned);
 	}
-	
+function perkalian($pesan_datang, $pesan_datang)
+    {
+           $a= $angka1;
+           $b= $angka2;
+           $hasil= $a*$b;
+           return $hasil;
+    }
+
