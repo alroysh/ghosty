@@ -125,7 +125,7 @@ if($message['type']=='text')
 					
 		}
 	else
-				if($pesan_datang=='taiwan')
+				if($pesan_datang=='https://line.me/S/sticker/7451')
 		{
 			
 			
@@ -134,7 +134,7 @@ if($message['type']=='text')
 								'messages' => array(
 									array(
 											'type' => 'text',					
-											'text' => 'REG TAIWAN '
+											'text' => 'Region Taiwan'
 										)
 								)
 							);
