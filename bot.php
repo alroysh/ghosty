@@ -462,7 +462,7 @@ else
 //sticker
 
 else
-	if($pesan_datang=='https://line.me/S/sticker/7451')
+	if($pesan_datang=='/taiwan')
 		{
 			$balas = array(
 			'replyToken' => $replyToken,														
