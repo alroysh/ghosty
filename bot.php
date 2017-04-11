@@ -39,7 +39,8 @@
 	$browser= $_SERVER['HTTP_USER_AGENT'];
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$owner = "Owner";
-	$hasil=perkalian(1,1);
+	$t = date("H");
+	if ($t < "20")
 	//pesan bergambar
 if($message['type']=='text')
 	{
@@ -245,7 +246,7 @@ if($message['type']=='text')
 			'messages' => array(
 			              array(
 					  'type' => 'text',					
-					   'text' => $hasil
+					   'text' => $t
 										)
 								)
 							);
