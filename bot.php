@@ -39,12 +39,8 @@
 	$browser= $_SERVER['HTTP_USER_AGENT'];
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$owner = "Owner";
-	$t = date("D");
-	if ($t < "20") {
-    echo "Have a good day!";
-} else {
-    echo "Have a good night!";
-}
+	$t = 'https://line.me/S/sticker/7451','https://line.me/S/sticker/7451';
+
 if($message['type']=='text')
 	{
 		if($pesan_datang=='Halo')
@@ -125,7 +121,7 @@ if($message['type']=='text')
 					
 		}
 	else
-				if($pesan_datang=='https://line.me/S/sticker/7451')
+				if($pesan_datang=='$t')
 		{
 			
 			
@@ -134,7 +130,7 @@ if($message['type']=='text')
 								'messages' => array(
 									array(
 											'type' => 'text',					
-											'text' => 'Region Taiwan'
+											'text' => .$t 'Region Taiwan'
 										)
 								)
 							);
