@@ -43,7 +43,9 @@
 	$t[0] = 'https://line.me/S/sticker/7451';
 	$t[1] = 'https://line.me/S/sticker/7451';
 	for ($x = 0; $x <= 10; $x++);
-	$random = (rand()%9);
+	$random1 = (rand()%100);
+	$random2 = (rand()%200);
+	$random3 = (rand()300);
 if($message['type']=='text')
 	{
 		if($pesan_datang=='Halo')
@@ -124,7 +126,7 @@ if($message['type']=='text')
 					
 		}
 	else
-				if($pesan_datang=='/acak')
+				if($pesan_datang=='/random100')
 		{
 			
 			
@@ -133,7 +135,39 @@ if($message['type']=='text')
 								'messages' => array(
 									array(
 											'type' => 'text',					
-											'text' => $random
+											'text' => $random1
+										)
+								)
+							);
+					
+		}
+	else
+				if($pesan_datang=='/random200')
+		{
+			
+			
+			$balas = array(
+								'replyToken' => $replyToken,														
+								'messages' => array(
+									array(
+											'type' => 'text',					
+											'text' => $random2
+										)
+								)
+							);
+					
+		}
+	else
+				if($pesan_datang=='/random300')
+		{
+			
+			
+			$balas = array(
+								'replyToken' => $replyToken,														
+								'messages' => array(
+									array(
+											'type' => 'text',					
+											'text' => $random3
 										)
 								)
 							);
