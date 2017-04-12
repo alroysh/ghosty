@@ -118,21 +118,7 @@
 							);
 					
 		}
-	else
-				if($pesan_datang=='/acak')
-		{
-			
-			
-			$balas = array(
-								'replyToken' => $replyToken,														
-								'messages' => array(
-									array(
-											'type' => 'text',					
-											'text' => ryRandom(2)
-								)
-							);
-					
-		}
+	
 		else
 				if($pesan_datang=='stickernya mana?')
 		{
