@@ -39,8 +39,7 @@
 	$browser= $_SERVER['HTTP_USER_AGENT'];
 	$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 	$owner = "Owner";
-for ($x = 0; $x <= 10; $x++)
-if($message['type']=='text')
+
 	{
 		if($pesan_datang=='Halo')
 		{
