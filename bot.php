@@ -45,7 +45,7 @@
 	for ($x = 0; $x <= 10; $x++);
 	$random1 = (rand()%100);
 	$random2 = (rand()%200);
-	$random3 = (rand()300);
+	$random3 = (rand()%300);
 if($message['type']=='text')
 	{
 		if($pesan_datang=='Halo')
@@ -528,4 +528,4 @@ echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
 	//$result = ob_get_clean();
 	file_put_contents('./balasan.json',$result);
 	$client->replyMessage($balas);
-		
+	
