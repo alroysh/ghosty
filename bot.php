@@ -43,6 +43,7 @@
 	$t[0] = 'https://line.me/S/sticker/7451';
 	$t[1] = 'https://line.me/S/sticker/7451';
 	for ($x = 0; $x <= 10; $x++);
+	$random = (rand()%9);
 if($message['type']=='text')
 	{
 		if($pesan_datang=='Halo')
@@ -132,7 +133,7 @@ if($message['type']=='text')
 								'messages' => array(
 									array(
 											'type' => 'text',					
-											'text' => ryRandom(2)
+											'text' => $random
 										)
 								)
 							);
