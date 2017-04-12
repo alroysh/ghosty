@@ -120,6 +120,22 @@
 		}
 	
 		else
+				if($pesan_datang=='$t[0]')
+		{
+			
+			
+			$balas = array(
+								'replyToken' => $replyToken,														
+								'messages' => array(
+									array(
+											'type' => 'text',					
+											'text' => 'Region Taiwan'
+										)
+								)
+							);
+					
+		}
+		else
 				if($pesan_datang=='stickernya mana?')
 		{
 			
