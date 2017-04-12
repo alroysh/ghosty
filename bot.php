@@ -123,7 +123,7 @@ if($message['type']=='text')
 					
 		}
 	else
-				if($pesan_datang=='$t[0]')
+				if($pesan_datang=='/acak')
 		{
 			
 			
@@ -132,7 +132,7 @@ if($message['type']=='text')
 								'messages' => array(
 									array(
 											'type' => 'text',					
-											'text' => 'Region Taiwan'
+											'text' => ryRandom(2)
 										)
 								)
 							);
