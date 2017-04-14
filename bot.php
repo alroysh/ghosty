@@ -496,7 +496,7 @@
 							'text' => 'Velda Sitanggang',
 							'actions' => [
 							[
-							'type' => 'message',
+							'type' => 'messages',
 							    'label' => 'Contact Line',
 							    'text' => 'http://line.me/ti/p/~velda_sitanggang'
 							]	
