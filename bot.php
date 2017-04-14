@@ -480,9 +480,8 @@
 								);
 
 			}
-		
 		else
-				if($pesan_datang== )
+				if($pesan_datang==$owner)
 			{
 
 				$balas = array(
@@ -499,7 +498,7 @@
 							[
 							'type' => 'message',
 							    'label' => 'Contact Line',
-							    'text' => 'mantap'
+							    'text' => 'http://line.me/ti/p/~velda_sitanggang'
 							]	
 							]
 
@@ -508,7 +507,8 @@
 									)
 								);
 
-			}
+			}	
+
 
 			else
 			if($pesan_datang=='Lokasi Bot')
