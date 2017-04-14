@@ -480,6 +480,35 @@
 								);
 
 			}
+		
+		else
+				if($pesan_datang==/acak)
+			{
+
+				$balas = array(
+				'replyToken' => $replyToken,														
+				'messages' => array(
+					      array(
+						   'type' => 'template',	
+						   'altText' => 'Owner Group',
+						   'template' =>[
+						  'type' => 'buttons',	
+							'title' => 'Owner Group',
+							'text' => 'Velda Sitanggang',
+							'actions' => [
+							[
+							'type' => 'text',
+							    'label' => 'Contact Line',
+							    'text' => 'mantap'
+							]	
+							]
+
+									]
+									)
+									)
+								);
+
+			}
 
 			else
 			if($pesan_datang=='Lokasi Bot')
