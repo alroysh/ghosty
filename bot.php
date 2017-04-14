@@ -481,7 +481,7 @@
 
 			}
 		else
-				if($pesan_datang==$owner)
+				if($pesan_datang=='/acak')
 			{
 
 				$balas = array(
