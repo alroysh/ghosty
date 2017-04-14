@@ -482,7 +482,7 @@
 			}
 		
 		else
-				if($pesan_datang==/acak)
+				if($pesan_datang== )
 			{
 
 				$balas = array(
@@ -497,7 +497,7 @@
 							'text' => 'Velda Sitanggang',
 							'actions' => [
 							[
-							'type' => 'text',
+							'type' => 'message',
 							    'label' => 'Contact Line',
 							    'text' => 'mantap'
 							]	
