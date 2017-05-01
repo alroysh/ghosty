@@ -51,6 +51,7 @@
 		$random3 = (rand()%300);
 		$a = $pesan_datang;
 		$b = $pesan_datang;
+		$hasil = $a+$b;
 	if($message['type']=='text')
 		{
 			if($pesan_datang=='Halo')
@@ -109,6 +110,20 @@
 						array(
 						'type' => 'text',					
 						'text' => 'IP : ' . $ip. ', Browser : ' . $browser .', Hostname : '. $hostname
+											)
+									)
+								);
+
+			}
+		else
+		if($pesan_datang=='hitung $a + $b')
+			{
+				$balas = array(
+				'replyToken' => $replyToken,														
+				'messages' => array(
+						array(
+						'type' => 'text',					
+						'text' => '$hasil'
 											)
 									)
 								);
