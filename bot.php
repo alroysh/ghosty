@@ -49,6 +49,8 @@
 		$random1 = (rand()%100);
 		$random2 = (rand()%200);
 		$random3 = (rand()%300);
+		$a = $pesan_datang;
+		$b = $pesan_datang;
 	if($message['type']=='text')
 		{
 			if($pesan_datang=='Halo')
