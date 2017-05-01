@@ -116,14 +116,14 @@
 
 			}
 		else
-		if($pesan_datang=='hitung $a + $b')
+		if($pesan_datang=='hitung'.$a + .$b)
 			{
 				$balas = array(
 				'replyToken' => $replyToken,														
 				'messages' => array(
 						array(
 						'type' => 'text',					
-						'text' => '$hasil'
+						'text' => .$hasil
 											)
 									)
 								);
