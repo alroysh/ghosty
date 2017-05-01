@@ -115,20 +115,7 @@
 								);
 
 			}
-		else
-		if($pesan_datang=='hitung'.$a + .$b)
-			{
-				$balas = array(
-				'replyToken' => $replyToken,														
-				'messages' => array(
-						array(
-						'type' => 'text',					
-						'text' => .$hasil
-											)
-									)
-								);
 
-			}
 			else
 					if($pesan_datang=='status')
 			{
