@@ -78,11 +78,6 @@ class LINEBotTiny
        
     }
 	
-	   public function leaveGroup($groupId)
-    {
-        return $this->httpClient->delete($this->endpointBase . 'https://api.line.me/v2/bot/group/' . urlencode($groupId) . '/leave', []);
-    }
-	
     public function profil($userId)
     {
       
@@ -157,24 +152,4 @@ function exec_url_aja($fullurl)
 		
 			return($returned);
 	}
-function perkalian($pesan_datang, $pesan_datang)
-    {
-           $a= $angka1;
-           $b= $angka2;
-           $hasil= $a*$b;
-           return $hasil;
-    }
-
-function ryRandom($muncul){
-
-if($muncul == '4'){
- $ryRandom = rand(1111,9999); //*Acak angka 1111 - 9999 menampilkan 4 angka
- }elseif($muncul == '3'){
- $ryRandom = rand(111,999); //*Acak angka 111 - 999 menampilkan 3 angka<br />
- }elseif($muncul == '2'){
- $ryRandom = rand(11,99); //* menampilkan 2 angka
- }else{
-    $ryRandom = "Random belum di setting";
-}
- return $ryRandom;
-}
+	
